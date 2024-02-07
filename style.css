@@ -9,50 +9,16 @@ body {
     background-color: #1F2937 ;
     color: #F9FAF8;
     padding: 20px 200px;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
 }
 
 .header-container {
     display: flex;
-    flex: 1;
     align-items: center;
     justify-content: space-between;
 }
 
-.hero-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-#hero-image {
-    display: flex;
-    height: 250px;
-    width: 800px;
-    padding: 40px;
-}
-
 #logo {
     font-size: 24px;
-}
-
-
-img {
-    width: 300px;
-}
-
-.hero-section {
-    display: flex;
-    align-items: center;
-    margin-top: 70px;
-    margin-bottom: 100px;
-}
-
-.hero-section .main-text {
-    font-size: 48px;
-    font-weight: bolder;
 }
 
 ul {
@@ -63,11 +29,50 @@ ul {
     gap: 30px;
 }
 
-a {
+a, 
+.subtext {
     color: #E5E7EB;
-    text-decoration: none;
     font-size: 18px;
     font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-image-container {
+    height: 250px;
+    width: 1100px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.hero-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    width: 300px;
 }
 
 button {
@@ -78,6 +83,7 @@ button {
     text-align: center;
     border-radius: 25px;
     border: none;
+    font-size: 16px;
 }
 
 .hero-sign-up {
