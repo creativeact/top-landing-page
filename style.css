@@ -31,7 +31,8 @@ ul {
 }
 
 a, 
-.subtext {
+.subtext,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: lighter;
@@ -83,7 +84,7 @@ button {
     font-size: 16px;
 }
 
-.hero-sign-up {
+.hero-sign-up .sign-up-link {
    font-weight: bold;
 }
 
@@ -159,4 +160,53 @@ button {
     text-align: right;
     font-weight: bolder;
     margin-right: 40px;
+}
+
+.cta-container {
+    display: flex;
+    height: 140px;
+    background-color: #3882F6;
+    margin: 80px 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cta-header {
+    color:  #F9FAF8;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.cta-content {
+    display: flex;
+    flex-wrap: wrap;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.cta-content p {
+    margin: 0px;
+}
+
+.cta-sign-up {
+    border: 2px solid #F9FAF8;
+    margin-right: 80px;
+    width: 160px;
+}
+
+.cta-sign-up .sign-up-link {
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
 }
