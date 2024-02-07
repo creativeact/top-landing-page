@@ -44,7 +44,7 @@ a {
 .hero-section {
     display: flex;
     align-items: center;
-    margin-top: 110px;
+    margin-top: 90px;
     margin-bottom: 110px;
 }
 
@@ -93,7 +93,7 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .info-header {
@@ -140,4 +140,23 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    padding: 50px 275px 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.speaker {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: 40px;
 }
