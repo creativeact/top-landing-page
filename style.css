@@ -166,11 +166,12 @@ button {
     display: flex;
     height: 140px;
     background-color: #3882F6;
-    margin: 80px 200px;
+    margin: 100px 200px;
     border: none;
     border-radius: 10px;
     padding: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .cta-header {
@@ -180,8 +181,6 @@ button {
 }
 
 .cta-content {
-    display: flex;
-    flex-wrap: wrap;
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
@@ -206,7 +205,7 @@ button {
 .footer {
     display: flex;
     background-color: #1F2937;
-    height: 80px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 }
